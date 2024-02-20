@@ -15,12 +15,15 @@ def is_happy_hour(user_date, user_time):
 
 def is_christmas(date):
     #ENTER CODE HERE
+    return date.month == 12 and date.day == 25
 
 def is_easter(date):
     return date == calc_easter_sunday(date.year)
 
 def is_sunday(date):
     #ENTER CODE HERE
+    return date.weekday == 6
+
 
 def calc_easter_sunday(year):
     a = year % 19
