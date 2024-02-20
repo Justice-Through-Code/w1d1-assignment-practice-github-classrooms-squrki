@@ -15,7 +15,7 @@ def is_happy_hour(user_date, user_time):
 
 def is_christmas(date):
     #ENTER CODE HERE
-    return date.month == 12 and date.day2023-12-25/ == 25
+    return date.month == 12 and date.day == 25
 
 def is_easter(date):
     return date == calc_easter_sunday(date.year)
